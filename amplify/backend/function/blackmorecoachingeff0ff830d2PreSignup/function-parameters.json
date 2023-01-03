@@ -1,0 +1,18 @@
+{
+  "trigger": true,
+  "modules": [
+    "email-filter-allowlist"
+  ],
+  "parentResource": "blackmorecoachingeff0ff830d2",
+  "functionName": "blackmorecoachingeff0ff830d2PreSignup",
+  "resourceName": "blackmorecoachingeff0ff830d2PreSignup",
+  "parentStack": "auth",
+  "triggerEnvs": [],
+  "triggerDir": "/snapshot/repo/build/node_modules/@aws-amplify/amplify-category-auth/provider-utils/awscloudformation/triggers/PreSignup",
+  "triggerTemplate": "PreSignup.json.ejs",
+  "triggerEventPath": "PreSignup.event.json",
+  "roleName": "blackmorecoachingeff0ff830d2PreSignup",
+  "skipEdit": true,
+  "DOMAINALLOWLIST": "blackmore.de",
+  "enableCors": false
+}

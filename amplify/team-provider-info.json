@@ -1,0 +1,28 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifyb87dea1dfe834-staging-144017-authRole",
+      "UnauthRoleArn": "arn:aws:iam::058938832021:role/amplify-amplifyb87dea1dfe834-staging-144017-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::058938832021:role/amplify-amplifyb87dea1dfe834-staging-144017-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-amplifyb87dea1dfe834-staging-144017-deployment",
+      "UnauthRoleName": "amplify-amplifyb87dea1dfe834-staging-144017-unauthRole",
+      "StackName": "amplify-amplifyb87dea1dfe834-staging-144017",
+      "StackId": "arn:aws:cloudformation:us-east-1:058938832021:stack/amplify-amplifyb87dea1dfe834-staging-144017/8aa94650-8b74-11ed-ac07-0ab31aa34771",
+      "AmplifyAppId": "d3rrs869qpdzim",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-amplifyb87dea1dfe834-staging-144017-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "blackmorecoachingeff0ff830d2": {}
+      },
+      "function": {
+        "blackmorecoachingeff0ff830d2PreSignup": {
+          "DOMAINALLOWLIST": "blackmore.de",
+          "deploymentBucketName": "amplify-amplifyb87dea1dfe834-staging-144017-deployment",
+          "s3Key": "amplify-builds/blackmorecoachingeff0ff830d2PreSignup-67464d456d4d6b395775-build.zip"
+        }
+      }
+    }
+  }
+}
