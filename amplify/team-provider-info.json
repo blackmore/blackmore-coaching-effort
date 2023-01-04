@@ -22,6 +22,9 @@
           "deploymentBucketName": "amplify-amplifyb87dea1dfe834-staging-144017-deployment",
           "s3Key": "amplify-builds/blackmorecoachingeff0ff830d2PreSignup-67464d456d4d6b395775-build.zip"
         }
+      },
+      "api": {
+        "blackmorecoachingeff": {}
       }
     }
   }
