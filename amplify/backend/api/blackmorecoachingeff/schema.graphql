@@ -1,0 +1,12 @@
+type Record @model @auth(rules: [ { allow: public } ] ){
+  id: ID!
+  done: Boolean
+  billing_month: String
+  customer: String
+  effort: String!
+  title: String
+  netto: Float
+  date: AWSDate!
+  duration: Float
+  note: String
+}
