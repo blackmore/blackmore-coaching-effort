@@ -1,8 +1,10 @@
-import React, { useState, useEffect } from "react";
+import * as React from 'react';
+
 import logo from './logo.svg';
 import './App.css';
 import "@aws-amplify/ui-react/styles.css";
 import Button from '@mui/material/Button';
+import BasicDatePicker from './components/DatePicker.js';
 import {
   withAuthenticator,
   Heading,
@@ -17,7 +19,8 @@ function App({ signOut }) {
     <Card>
       <Image src={logo} className="App-logo" alt="logo" />
       <Heading level={1}>We now have Auth!</Heading>
-      </Card>
+    </Card>
+      <BasicDatePicker></BasicDatePicker>
       <Button onClick={signOut}>Sign Out</Button>
     </View>
   );
